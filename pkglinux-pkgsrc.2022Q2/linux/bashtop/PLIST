@@ -1,2 +1,13 @@
 @comment $NetBSD$
 bin/bashtop
+share/bashtop/themes/default_black.theme
+share/bashtop/themes/flat-remix-light.theme
+share/bashtop/themes/flat-remix.theme
+share/bashtop/themes/greyscale.theme
+share/bashtop/themes/gruvbox_dark.theme
+share/bashtop/themes/index.txt
+share/bashtop/themes/monokai.theme
+share/bashtop/themes/nord.theme
+share/bashtop/themes/solarized_dark.theme
+share/bashtop/themes/whiteout.theme
+share/doc/bashtop/README.md

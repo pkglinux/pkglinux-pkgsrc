@@ -1,0 +1,5 @@
+$NetBSD: distinfo,v 1.6 2021/10/26 10:44:02 nia Exp $
+
+BLAKE2s (gogui-1.4.9-src.tar.gz) = d971e0990726329dd38e977ba28edb62ce2389ad223472963fa8e6d209f8621f
+SHA512 (gogui-1.4.9-src.tar.gz) = e9d88cc72cd624d18e7b6430864ad8371cb7ac6962470af61be1f09dc71775ce0f464f2a2e5e5801cf8fdbe7f4b5a029f898cd7a8a6e3899bc7d0ed929018f44
+Size (gogui-1.4.9-src.tar.gz) = 711680 bytes

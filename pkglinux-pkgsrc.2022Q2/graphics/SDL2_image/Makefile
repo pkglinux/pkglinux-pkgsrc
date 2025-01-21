@@ -21,7 +21,8 @@ post-install:
 	${LIBTOOL} --mode=install ${INSTALL_PROGRAM} ${WRKSRC}/showimage \
 		${DESTDIR}${PREFIX}/bin/showimage2
 
-.include "../../devel/SDL2/buildlink3.mk"
+#.include "../../devel/SDL2/buildlink3.mk"
+.include "../../devel/SDL/buildlink3.mk"
 .include "../../graphics/libwebp/buildlink3.mk"
 .include "../../graphics/png/buildlink3.mk"
 .include "../../graphics/tiff/buildlink3.mk"

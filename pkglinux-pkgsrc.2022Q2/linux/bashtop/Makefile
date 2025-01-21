@@ -22,9 +22,13 @@ WRKSRC=		${WRKDIR}/bashtop-0.9.25
 USE_LANGUAGES=	# none
 NO_BUILD=	yes
 
-INSTALLATION_DIRS+=	bin
+INSTALLATION_DIRS+=	share/bashtop/themes
 
 do-install:
-	${INSTALL_SCRIPT} ${WRKSRC}/bashtop ${DESTDIR}${PREFIX}/bin
+	cd ${WRKSRC} && DESTDIR=${DESTDIR} PREFIX=${PREFIX} gmake install
+
+#	${INSTALL_SCRIPT} ${WRKSRC}/bashtop ${DESTDIR}${PREFIX}/bin
+post-install:
+	${CP} -av ${WRKSRC}/themes ${DESTDIR}${PREFIX}/share/bashtop
 
 .include "../../mk/bsd.pkg.mk"
