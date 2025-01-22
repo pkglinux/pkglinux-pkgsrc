@@ -1,0 +1,23 @@
+TODO: Adjust the following lines from README.md
+
+# KataGo
+
+* [Overview](#overview)
+* [Training History and Research](#training-history-and-research)
+* [Where To Download Stuff](#where-to-download-stuff)
+* [Setting Up and Running KataGo](#setting-up-and-running-katago)
+  * [GUIs](#guis)
+  * [Windows and Linux](#windows-and-linux)
+  * [MacOS](#macos)
+  * [OpenCL vs CUDA vs TensorRT vs Eigen](#opencl-vs-cuda-vs-tensorrt-vs-eigen)
+  * [How To Use](#how-to-use)
+  * [Tuning for Performance](#tuning-for-performance)
+  * [Common Questions and Issues](#common-questions-and-issues)
+    * [Issues with specific GPUs or GPU drivers](#issues-with-specific-gpus-or-gpu-drivers)
+    * [Common Problems](#common-problems)
+    * [Other Questions](#other-questions)
+* [Features for Developers](#features-for-developers)
+  * [GTP Extensions](#gtp-extensions)
+  * [Analysis Engine](#analysis-engine)
+* [Compiling KataGo](#compiling-katago)
+...

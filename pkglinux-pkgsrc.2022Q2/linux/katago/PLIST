@@ -1,0 +1,8 @@
+@comment $NetBSD$
+bin/katago
+share/katago/analysis_example.cfg
+share/katago/contribute_example.cfg
+share/katago/default_gtp.cfg
+share/katago/gtp_human5k_example.cfg
+share/katago/gtp_human9d_search_example.cfg
+share/katago/match_example.cfg
