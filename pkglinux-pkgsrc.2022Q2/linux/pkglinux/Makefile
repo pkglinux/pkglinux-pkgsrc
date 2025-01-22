@@ -12,7 +12,6 @@ META_PACKAGE=	yes
 .include "../../mk/bsd.prefs.mk"
 
 DEPENDS+=	bootscripts-[0-9]*:../../native/bootscripts
-DEPENDS+=	debianutils-[0-9]*:../../native/debianutils
 DEPENDS+=	startups-[0-9]*:../../native/startups
 DEPENDS+=	mkshadow-[0-9]*:../../native/mkshadow
 DEPENDS+=	native-glibc-[0-9]*:../../native/glibc
