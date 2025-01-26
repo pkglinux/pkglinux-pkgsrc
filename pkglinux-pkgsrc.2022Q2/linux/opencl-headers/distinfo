@@ -1,0 +1,6 @@
+$NetBSD: distinfo,v 1.5 2024/07/06 15:49:09 adam Exp $
+
+BLAKE2s (opencl-headers-2024.05.08.tar.gz) = e50cfca0281b5b9d1239c6ba50e26741b56c1e8e5ee2c8a42aeab0909c628814
+SHA512 (opencl-headers-2024.05.08.tar.gz) = 2f1a46d58a5a9329470bab4c3662f17e81aab9558bfd9e1aafa14d3e1ab129513ab9493eeeb3cc48f0f91f0bc6b61bd54e28d7083eed58af9f34cd973cc93de1
+Size (opencl-headers-2024.05.08.tar.gz) = 76977 bytes
+SHA1 (patch-CMakeLists.txt) = 49afeed82a1dc7c72ec5714d8e799980f33fb8f8

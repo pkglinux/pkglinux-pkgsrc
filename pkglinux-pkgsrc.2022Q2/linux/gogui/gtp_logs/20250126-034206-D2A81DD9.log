@@ -1,0 +1,79 @@
+2025-01-26 03:42:06+0800: Running with following config:
+allowResignation = true
+lagBuffer = 1.0
+logAllGTPCommunication = true
+logDir = gtp_logs
+logSearchInfo = true
+logSearchInfoForChosenMove = false
+logToStderr = false
+maxTimePondering = 60.0
+maxVisits = 500
+numSearchThreads = 8
+ponderingEnabled = false
+resignConsecTurns = 3
+resignThreshold = -0.90
+rules = tromp-taylor
+searchFactorAfterOnePass = 0.50
+searchFactorAfterTwoPass = 0.25
+searchFactorWhenWinning = 0.40
+searchFactorWhenWinningThreshold = 0.95
+
+2025-01-26 03:42:06+0800: GTP Engine starting...
+2025-01-26 03:42:06+0800: KataGo v1.15.3
+2025-01-26 03:42:06+0800: Using TrompTaylor rules initially, unless GTP/GUI overrides this
+2025-01-26 03:42:06+0800: Using 8 CPU thread(s) for search
+2025-01-26 03:42:06+0800: nnRandSeed0 = 13868880234931836501
+2025-01-26 03:42:06+0800: After dedups: nnModelFile0 = /sda4/sda3/kata1-b28c512nbt-s8209287936-d4596492266.bin.gz useFP16 auto useNHWC auto
+2025-01-26 03:42:06+0800: Initializing neural net buffer to be size 19 * 19 exactly
+2025-01-26 03:42:12+0800: Eigen (CPU) backend thread 0: Model version 15
+2025-01-26 03:42:12+0800: Eigen (CPU) backend thread 0: Model name: kata1-b28c512nbt-s8209287936-d4596492266
+2025-01-26 03:42:12+0800: Eigen (CPU) backend thread 1: Model version 15
+2025-01-26 03:42:12+0800: Eigen (CPU) backend thread 1: Model name: kata1-b28c512nbt-s8209287936-d4596492266
+2025-01-26 03:42:12+0800: Eigen (CPU) backend thread 2: Model version 15
+2025-01-26 03:42:12+0800: Eigen (CPU) backend thread 2: Model name: kata1-b28c512nbt-s8209287936-d4596492266
+2025-01-26 03:42:12+0800: Eigen (CPU) backend thread 3: Model version 15
+2025-01-26 03:42:12+0800: Eigen (CPU) backend thread 3: Model name: kata1-b28c512nbt-s8209287936-d4596492266
+2025-01-26 03:42:12+0800: Eigen (CPU) backend thread 4: Model version 15
+2025-01-26 03:42:12+0800: Eigen (CPU) backend thread 4: Model name: kata1-b28c512nbt-s8209287936-d4596492266
+2025-01-26 03:42:12+0800: Eigen (CPU) backend thread 6: Model version 15
+2025-01-26 03:42:12+0800: Eigen (CPU) backend thread 5: Model version 15
+2025-01-26 03:42:12+0800: Eigen (CPU) backend thread 5: Model name: kata1-b28c512nbt-s8209287936-d4596492266
+2025-01-26 03:42:12+0800: Eigen (CPU) backend thread 7: Model version 15
+2025-01-26 03:42:12+0800: Eigen (CPU) backend thread 6: Model name: kata1-b28c512nbt-s8209287936-d4596492266
+2025-01-26 03:42:12+0800: Eigen (CPU) backend thread 7: Model name: kata1-b28c512nbt-s8209287936-d4596492266
+2025-01-26 03:42:14+0800: Loaded neural net with nnXLen 19 nnYLen 19
+2025-01-26 03:42:14+0800: Initializing board with boardXSize 19 boardYSize 19
+2025-01-26 03:42:14+0800: Loaded config /pkg/share/katago/default_gtp.cfg
+2025-01-26 03:42:14+0800: Loaded model /sda4/sda3/kata1-b28c512nbt-s8209287936-d4596492266.bin.gz
+2025-01-26 03:42:14+0800: Model name: kata1-b28c512nbt-s8209287936-d4596492266
+2025-01-26 03:42:14+0800: GTP ready, beginning main protocol loop
+2025-01-26 03:42:29+0800: Controller: GET / HTTP/1.1
+2025-01-26 03:42:29+0800: ? unknown command
+2025-01-26 03:42:29+0800: Controller: Host: 192.168.31.140:9055
+2025-01-26 03:42:29+0800: ? unknown command
+2025-01-26 03:42:29+0800: Controller: User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:101.0) Gecko/20100101 Firefox/101.0
+2025-01-26 03:42:29+0800: ? unknown command
+2025-01-26 03:42:29+0800: Controller: Accept: */*
+2025-01-26 03:42:29+0800: ? unknown command
+2025-01-26 03:42:29+0800: Controller: Accept-Language: en-US,en;q=0.5
+2025-01-26 03:42:29+0800: ? unknown command
+2025-01-26 03:42:29+0800: Controller: Accept-Encoding: gzip, deflate
+2025-01-26 03:42:29+0800: ? unknown command
+2025-01-26 03:42:29+0800: Controller: Sec-WebSocket-Version: 13
+2025-01-26 03:42:29+0800: ? unknown command
+2025-01-26 03:42:29+0800: Controller: Origin: http://192.168.31.140:8088
+2025-01-26 03:42:29+0800: ? unknown command
+2025-01-26 03:42:29+0800: Controller: Sec-WebSocket-Extensions: permessage-deflate
+2025-01-26 03:42:29+0800: ? unknown command
+2025-01-26 03:42:29+0800: Controller: Sec-WebSocket-Key: hN2uSLLcJ7KDTQIxp7hPow==
+2025-01-26 03:42:29+0800: ? unknown command
+2025-01-26 03:42:29+0800: Controller: Connection: keep-alive, Upgrade
+2025-01-26 03:42:29+0800: ? unknown command
+2025-01-26 03:42:29+0800: Controller: Cookie: shellInABox=1977554699:1010100100
+2025-01-26 03:42:29+0800: ? unknown command
+2025-01-26 03:42:29+0800: Controller: Pragma: no-cache
+2025-01-26 03:42:29+0800: ? unknown command
+2025-01-26 03:42:29+0800: Controller: Cache-Control: no-cache
+2025-01-26 03:42:29+0800: ? unknown command
+2025-01-26 03:42:29+0800: Controller: Upgrade: websocket
+2025-01-26 03:42:29+0800: ? unknown command
